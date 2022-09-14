@@ -20,7 +20,7 @@ h1 {
 	background-color: #aed19d;
 }
 /*Attribute Selector*/
-ol[id] {
+li[value] {
 	border-width: 3px;
 	border-style: solid;
 	border-color: rgb(157, 176, 209);
