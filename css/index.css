@@ -28,7 +28,7 @@ li[value] {
 
 /*Adjacent Selector*/
 img + ul {
-	list-style-type: circle;
+	list-style-type: none;
 }
 /*Descendent Selector*/
 section img {
