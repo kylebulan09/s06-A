@@ -1,0 +1,46 @@
+/*Universal Selector*/
+* {
+	font-family: "Verdana", monospace;
+	font-size: 20px;
+}
+
+#external {
+	color: yellow;
+}
+/*Type Selector*/
+h1 {
+	font-size: 3rem;
+}
+/*ID Selector*/
+#uppercase {
+	text-transform: uppercase;
+}
+/*Class Selector*/
+.languages {
+	background-color: #aed19d;
+}
+/*Attribute Selector*/
+ol[class] {
+	border-width: 3px;
+	border-style: solid;
+	border-color: rgb(157, 176, 209);
+}
+
+/*Adjacent Selector*/
+img + ul {
+	list-style-type: circle;
+}
+/*Descendent Selector*/
+section img {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+}
+/*Child Selector*/
+section > ul {
+	letter-spacing: 10px;
+}
+/*Generic Selector*/
+ul ~ p {
+	text-align: center;
+}
